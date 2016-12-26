@@ -1,0 +1,73 @@
+[B@144bcfa
+2016-12-15 19:10:11 INFO  EntityManagerFactoryImpl:130 - Loading Core
+2016-12-15 19:10:11 INFO  CoreLoader:41 - Loading Kundera Core Metdata ... 
+2016-12-15 19:10:11 INFO  EntityManagerFactoryImpl:654 - Loading Persistence Unit MetaData For Persistence Unit(s) hbase_pu.
+2016-12-15 19:10:11 INFO  PersistenceUnitConfiguration:77 - Loading Metadata from persistence.xml ...
+2016-12-15 19:10:11 INFO  PersistenceUnitConfiguration:94 - Finishing persistence unit metadata configuration ...
+2016-12-15 19:10:23 INFO  ClientMetadataBuilder:37 - Loading client factory for persistence unit hbase_pu
+2016-12-15 19:10:23 INFO  ClientResolver:73 - Initializing client factory for: hbase_pu
+2016-12-15 19:10:23 INFO  ClientResolver:152 - Finishing factory initialization
+2016-12-15 19:10:23 INFO  SchemaConfiguration:116 - Configuring schema export for : hbase_pu
+2016-12-15 19:10:23 WARN  NativeCodeLoader:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-12-15 19:10:24 INFO  RecoverableZooKeeper:120 - Process identifier=hconnection-0x5c96b connecting to ZooKeeper ensemble=localhost:2181
+2016-12-15 19:10:24 INFO  ZooKeeper:100 - Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+2016-12-15 19:10:24 INFO  ZooKeeper:100 - Client environment:host.name=master
+2016-12-15 19:10:24 INFO  ZooKeeper:100 - Client environment:java.version=1.8.0_91
+2016-12-15 19:10:24 INFO  ZooKeeper:100 - Client environment:java.vendor=Oracle Corporation
+2016-12-15 19:10:24 INFO  ZooKeeper:100 - Client environment:java.home=/usr/local/java/jdk1.8.0_91/jre
+2016-12-15 19:10:24 INFO  ZooKeeper:100 - Client environment:java.class.path=DBp2-1.0-SNAPSHOT-jar-with-dependencies.jar
+2016-12-15 19:10:24 INFO  ZooKeeper:100 - Client environment:java.library.path=/usr/java/packages/lib/i386:/lib:/usr/lib
+2016-12-15 19:10:24 INFO  ZooKeeper:100 - Client environment:java.io.tmpdir=/tmp
+2016-12-15 19:10:24 INFO  ZooKeeper:100 - Client environment:java.compiler=<NA>
+2016-12-15 19:10:24 INFO  ZooKeeper:100 - Client environment:os.name=Linux
+2016-12-15 19:10:24 INFO  ZooKeeper:100 - Client environment:os.arch=i386
+2016-12-15 19:10:24 INFO  ZooKeeper:100 - Client environment:os.version=3.13.0-100-generic
+2016-12-15 19:10:24 INFO  ZooKeeper:100 - Client environment:user.name=ubuntu
+2016-12-15 19:10:24 INFO  ZooKeeper:100 - Client environment:user.home=/home/ubuntu
+2016-12-15 19:10:24 INFO  ZooKeeper:100 - Client environment:user.dir=/home/ubuntu/kolya
+2016-12-15 19:10:24 INFO  ZooKeeper:438 - Initiating client connection, connectString=localhost:2181 sessionTimeout=90000 watcher=hconnection-0x5c96b0x0, quorum=localhost:2181, baseZNode=/hbase
+2016-12-15 19:10:24 INFO  ClientCnxn:975 - Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2016-12-15 19:10:24 INFO  ClientCnxn:852 - Socket connection established to localhost/127.0.0.1:2181, initiating session
+2016-12-15 19:10:24 INFO  ClientCnxn:1235 - Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x159036cc64e023b, negotiated timeout = 60000
+2016-12-15 19:10:27 INFO  GenericClientFactory:110 - Loading client metadata for persistence unit : hbase_pu
+2016-12-15 19:10:27 INFO  GenericClientFactory:114 - Initializing client for persistence unit : hbase_pu
+2016-12-15 19:10:27 INFO  GenericClientFactory:118 - Constructing pool for persistence unit : hbase_pu
+2016-12-15 19:10:27 INFO  RecoverableZooKeeper:120 - Process identifier=hconnection-0x129c78 connecting to ZooKeeper ensemble=localhost:2181
+2016-12-15 19:10:27 INFO  ZooKeeper:438 - Initiating client connection, connectString=localhost:2181 sessionTimeout=90000 watcher=hconnection-0x129c780x0, quorum=localhost:2181, baseZNode=/hbase
+2016-12-15 19:10:27 INFO  ClientCnxn:975 - Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2016-12-15 19:10:27 INFO  ClientCnxn:852 - Socket connection established to localhost/127.0.0.1:2181, initiating session
+2016-12-15 19:10:27 INFO  ClientCnxn:1235 - Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x159036cc64e023c, negotiated timeout = 60000
+2016-12-15 19:10:27 INFO  EntityManagerFactoryImpl:192 - EntityManagerFactory created for persistence unit : hbase_pu
+2016-12-15 19:10:27 INFO  EntityManagerImpl:983 - Returning client instance for persistence unit hbase_pu.
+2016-12-15 19:10:27 INFO  ConnectionManager$HConnectionImplementation:1710 - Closing zookeeper sessionid=0x159036cc64e023c
+2016-12-15 19:10:27 INFO  ZooKeeper:684 - Session: 0x159036cc64e023c closed
+2016-12-15 19:10:27 INFO  ClientCnxn:512 - EventThread shut down
+2016-12-15 19:10:27 INFO  RecoverableZooKeeper:120 - Process identifier=hconnection-0x12b107 connecting to ZooKeeper ensemble=localhost:2181
+2016-12-15 19:10:27 INFO  ZooKeeper:438 - Initiating client connection, connectString=localhost:2181 sessionTimeout=180000 watcher=hconnection-0x12b1070x0, quorum=localhost:2181, baseZNode=/hbase
+2016-12-15 19:10:27 INFO  ClientCnxn:975 - Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2016-12-15 19:10:27 INFO  ClientCnxn:852 - Socket connection established to localhost/127.0.0.1:2181, initiating session
+2016-12-15 19:10:27 INFO  ClientCnxn:1235 - Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x159036cc64e023d, negotiated timeout = 60000
+2016-12-15 19:10:28 INFO  EntityManagerFactoryImpl:130 - Loading Core
+2016-12-15 19:10:28 INFO  CoreLoader:41 - Loading Kundera Core Metdata ... 
+2016-12-15 19:10:28 INFO  EntityManagerFactoryImpl:654 - Loading Persistence Unit MetaData For Persistence Unit(s) hbase_pu.
+2016-12-15 19:10:28 INFO  PersistenceUnitConfiguration:77 - Loading Metadata from persistence.xml ...
+2016-12-15 19:10:28 INFO  PersistenceUnitConfiguration:94 - Finishing persistence unit metadata configuration ...
+2016-12-15 19:10:39 INFO  ClientMetadataBuilder:37 - Loading client factory for persistence unit hbase_pu
+2016-12-15 19:10:39 INFO  ClientResolver:73 - Initializing client factory for: hbase_pu
+2016-12-15 19:10:39 INFO  ClientResolver:152 - Finishing factory initialization
+2016-12-15 19:10:39 INFO  SchemaConfiguration:116 - Configuring schema export for : hbase_pu
+2016-12-15 19:10:39 INFO  RecoverableZooKeeper:120 - Process identifier=hconnection-0x119ac19 connecting to ZooKeeper ensemble=localhost:2181
+2016-12-15 19:10:39 INFO  ZooKeeper:438 - Initiating client connection, connectString=localhost:2181 sessionTimeout=90000 watcher=hconnection-0x119ac190x0, quorum=localhost:2181, baseZNode=/hbase
+2016-12-15 19:10:39 INFO  ClientCnxn:975 - Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2016-12-15 19:10:39 INFO  ClientCnxn:852 - Socket connection established to localhost/127.0.0.1:2181, initiating session
+2016-12-15 19:10:39 INFO  ClientCnxn:1235 - Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x159036cc64e023e, negotiated timeout = 60000
+2016-12-15 19:10:42 INFO  GenericClientFactory:110 - Loading client metadata for persistence unit : hbase_pu
+2016-12-15 19:10:42 INFO  GenericClientFactory:114 - Initializing client for persistence unit : hbase_pu
+2016-12-15 19:10:42 INFO  GenericClientFactory:118 - Constructing pool for persistence unit : hbase_pu
+2016-12-15 19:10:42 INFO  RecoverableZooKeeper:120 - Process identifier=hconnection-0xbff610 connecting to ZooKeeper ensemble=localhost:2181
+2016-12-15 19:10:42 INFO  ZooKeeper:438 - Initiating client connection, connectString=localhost:2181 sessionTimeout=90000 watcher=hconnection-0xbff6100x0, quorum=localhost:2181, baseZNode=/hbase
+2016-12-15 19:10:42 INFO  ClientCnxn:975 - Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2016-12-15 19:10:42 INFO  ClientCnxn:852 - Socket connection established to localhost/127.0.0.1:2181, initiating session
+2016-12-15 19:10:42 INFO  ClientCnxn:1235 - Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x159036cc64e023f, negotiated timeout = 60000
+2016-12-15 19:10:42 INFO  EntityManagerFactoryImpl:192 - EntityManagerFactory created for persistence unit : hbase_pu
+2016-12-15 19:10:42 INFO  EntityManagerImpl:983 - Returning client instance for persistence unit hbase_pu.
