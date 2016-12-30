@@ -1,7 +1,6 @@
 package com.DB.kolya;
 
 import com.google.common.primitives.Bytes;
-//import com.lits.kundera.test.Util;
 import org.fluttercode.datafactory.impl.DataFactory;
 
 import javax.persistence.EntityManager;
@@ -15,7 +14,7 @@ import java.util.*;
 public class EntryPoint {
     public static void main(String[] args) throws IOException {
         DataFactory df = new DataFactory();
-        List<String> types = new ArrayList<>(Arrays.asList("Bolezn1", "Bolezn2", "Bolezn3", "Bolezn4"));
+        List<String> types = new ArrayList<>(Arrays.asList("type1", "type2", "type3", "type4"));
 
         Map<String, String> properties = new HashMap<>();
         EntityManagerFactory factory = Persistence.createEntityManagerFactory("hbase_pu", properties);
