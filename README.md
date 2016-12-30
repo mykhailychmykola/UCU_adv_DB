@@ -1,2 +1,2 @@
 # UCU_adv_DB
-advance DB homework
+advanced DB homework
