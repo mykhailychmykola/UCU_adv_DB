@@ -20,13 +20,13 @@ public class CustomTest extends BaseTest{
         List<com.DB.kolya.Physician> allPhysicians = findQuery.getResultList();
         Assert.assertNotEquals(0, allPhysicians.size());
 
-        Query findQuery2 = em.createQuery("select p from Patient p where p.firstName = \'Patient1\'");
+        Query findQuery2 = em.createQuery("select p from Patient p where p.firstName = \'FirstName1\'");
         List<com.DB.kolya.Patient> patients1 = findQuery2.getResultList();
-        Assert.assertNotEquals(0, patients1.size());
+        Assert.assertEquals(1, patients1.size());
 
         Query findQuery3 = em.createQuery("select mr from MedicalRecord mr where mr.type = \'type2\'");
-        List<com.DB.kolya.MedicalRecord> allRecords2 = findQuery3.getResultList();
-        Assert.assertNotEquals(0, allRecords2.size());
+        List<com.DB.kolya.MedicalRecord> allRecords = findQuery3.getResultList();
+        Assert.assertNotEquals(0, allRecords.size());    
     }
 }
 
