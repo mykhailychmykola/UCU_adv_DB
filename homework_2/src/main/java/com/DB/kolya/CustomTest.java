@@ -26,7 +26,7 @@ public class CustomTest extends BaseTest{
 
         Query findQuery3 = em.createQuery("select mr from MedicalRecord mr where mr.type = \'type2\'");
         List<com.DB.kolya.MedicalRecord> allRecords = findQuery3.getResultList();
-        Assert.assertEquals(1, allRecords.size());
+        Assert.assertEquals(, allRecords.size());
     }
 
 }
