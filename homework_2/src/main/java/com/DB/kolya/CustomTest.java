@@ -17,15 +17,15 @@ public class CustomTest extends BaseTest{
         EntityManager em = emf.createEntityManager();
 
         Query findQuery = em.createQuery("select p from Physician p");
-        List<com.kek5.Physician> allPhysicians = findQuery.getResultList();
+        List<com.DB.kolya.Physician> allPhysicians = findQuery.getResultList();
         Assert.assertNotEquals(0, allPhysicians.size());
 
         Query findQuery2 = em.createQuery("select p from Patient p where p.firstName = \'Patient1\'");
-        List<com.kek5.Patient> patients1 = findQuery2.getResultList();
+        List<com.DB.kolya.Patient> patients1 = findQuery2.getResultList();
         Assert.assertNotEquals(0, patients1.size());
 
         Query findQuery3 = em.createQuery("select mr from MedicalRecord mr where mr.type = \'type2\'");
-        List<com.kek5.MedicalRecord> allRecords2 = findQuery3.getResultList();
+        List<com.DB.kolya.MedicalRecord> allRecords2 = findQuery3.getResultList();
         Assert.assertNotEquals(0, allRecords2.size());
     }
 }
